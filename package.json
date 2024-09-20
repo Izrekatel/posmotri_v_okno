@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "checkall": "^0.1.1",
     "prettier": "^3.3.3",
     "stylelint": "^16.9.0"
   }
