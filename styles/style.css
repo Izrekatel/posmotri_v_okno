@@ -297,5 +297,6 @@ img {
 
 .more-button {
   padding: 5px;
+  inline-size: -webkit-fill-available;
   inline-size: -moz-available;
 }
