@@ -238,12 +238,6 @@ img {
   background: transparent;
 }
 
-.square {
-}
-
-.cards-list-item-template {
-}
-
 .content__list-item {
   padding: 2px;
 }
@@ -281,7 +275,7 @@ img {
 }
 
 .content__video-card-title {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
