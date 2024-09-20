@@ -54,6 +54,7 @@ img {
 }
 
 .result {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -172,7 +173,7 @@ img {
 
 .search-form__label input:checked ~ .search-form__pseudo-checkbox {
   background-color: #fff;
-  background-position: 1px 1px 1px 1px;
+  background-position: 1px;
 }
 
 .button {
@@ -206,6 +207,7 @@ img {
 }
 
 .content__details {
+  position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
