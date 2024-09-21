@@ -9,9 +9,11 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 800px;
-  padding: 133px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -46,10 +48,9 @@ img {
 }
 
 .content {
+  width: 1140px;
   display: grid;
   grid-template-columns: auto 35%;
-  margin-inline-start: 30px;
-  margin-inline-end: 30px;
   gap: 30px;
 }
 
