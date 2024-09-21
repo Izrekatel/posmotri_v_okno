@@ -59,7 +59,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-block-start: 78px;
+  margin-block-start: 75px;
 }
 
 .result__video-container {
@@ -212,7 +212,7 @@ img {
   display: flex;
   flex-direction: column;
   height: 100%;
-  gap: 24.5px;
+  justify-content: space-between;
 }
 
 .title {
@@ -232,7 +232,7 @@ img {
   display: flex;
   flex-direction: column;
   max-block-size: 298px;
-  gap: 30px;
+  gap: 26px;
   overflow-y: scroll;
 }
 
@@ -296,6 +296,8 @@ img {
 
 .content__video-card-thumbnail {
   height: 103px;
+  margin-block-start: 2px;
+  margin-block-end: 2px;
 }
 
 .more-button {
