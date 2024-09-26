@@ -74,6 +74,7 @@ img {
 }
 
 .search-form {
+  position: relative;
   display: flex;
   justify-content: space-between;
   font-size: 18px;
@@ -229,6 +230,7 @@ img {
 }
 
 .title {
+  position: relative;
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
