@@ -55,7 +55,6 @@ img {
 }
 
 .result {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -222,7 +221,6 @@ img {
 }
 
 .content__details {
-  position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
