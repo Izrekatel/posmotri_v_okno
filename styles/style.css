@@ -248,12 +248,8 @@ img {
   overflow-x: hidden;
 }
 
-.content__list li {
-  margin-block-start: 30px;
-}
-
-.content__list li:first-child {
-  margin-block-start: 0;
+.content__list-item:not(:last-child) {
+  margin-block-end: 30px;
 }
 
 .content__card-link {
