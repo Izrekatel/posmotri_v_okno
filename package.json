@@ -15,16 +15,19 @@
     "dev": "gulp",
     "fixAndBuild": "npm run fixAll && npm run build",
     "lintfixAndPush": "npm run fixAll && git add . && git commit -m 'ready_to_publish' && git push"
-  }, 
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "browser-sync": "^3.0.3",
     "checkall": "^0.1.1",
     "del": "^6.0.0",
     "gulp": "^5.0.0",
     "gulp-concat-css": "^3.1.0",
     "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "stylelint": "^16.10.0"
   },
@@ -33,5 +36,8 @@
     "rimraf": "^6.0.1",
     "set-value": "^4.1.0",
     "update": "^0.4.2"
-  }
+  },
+  "browserslist": [
+    "last 5 versions"
+  ]
 }
